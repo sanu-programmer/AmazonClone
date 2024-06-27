@@ -1,38 +1,23 @@
-*{
-    padding:0;
+* {
     margin: 0;
-    color:white
-}
-#navbar{
-    height:60px;
-    background-color: #0f1111;
-    
-}
-button{
-    background-color: #f08804;
-}
-#logo{
-    font-size: 25px;
-    color: #f08804;
+    font-family: Arial;
+    border:border-box;
 
 }
-a{
-    margin-right: 200px;
-}
-#content{
-    height: 632px;
-}
-.contentbox{
-    height: 100px;
-    width: 100px;
-    border:2px solid black;
-    display: inline-block;
-    
-} 
-footer{
-    color:white;
+.navbar{
+    height: 60px;
     background-color: #0f1111;
-    text-align: center;
+    color: white;
+
 }
-    
-    
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px ;
+}
